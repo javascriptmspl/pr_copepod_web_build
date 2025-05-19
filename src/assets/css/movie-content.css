@@ -1,0 +1,243 @@
+/*-------------------------------------------------------------------
+                    genres page                                        
+----------------------------------------------*/
+.genres-main {
+	padding-top: 6.25em;
+}
+.iq-genres-section {
+	padding-bottom: 6.25em;
+}
+.iq_genres-contents .block-description {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+.parallax-buttons a span {
+	letter-spacing: 0.094em;
+	text-transform: uppercase;
+}
+.iq_genres-contents li.slide-item {
+	margin-bottom: 1.875em;
+}
+.iq_genres-contents .block-images.watchlist-first:hover {
+    transform: scale3d(1.1,1.1,1) translate3d(6%,0,0) perspective(500px);
+    -webkit-transform: scale3d(1.1,1.1,1) translate3d(6%,0,0) perspective(500px);
+    -moz-transform: scale3d(1.1,1.1,1) translate3d(6%,0,0) perspective(500px);
+    -o-transform: scale3d(1.1,1.1,1) translate3d(6%,0,0) perspective(500px);
+}
+/*-------------------------------------------------------------------
+                    gerres-detail page                                      
+----------------------------------------------*/
+.genres-list h3.genres-title {
+	letter-spacing: -.02em;
+	line-height: 1.2;
+}
+.genres-list a.title {
+	letter-spacing: 0.063em;
+	line-height: 1.75;
+}
+.genres-list .movie-content li.trending-list::before {
+	height: 0.375em;
+	width: 0.375em;
+	top: 0.813em;
+	background: var(--iq-secondary)
+}
+.genres-list .trending-year-list:before {
+	background: var(--iq-secondary) !important;
+}
+.genres-list .genres-info {
+	letter-spacing: 0.044em;
+	line-height: 1.5em;
+}
+.genres-list li.text-lable {
+	font-size: 1.125em;
+	text-transform: uppercase;
+	letter-spacing: 0.125em;
+	font-weight: 600;
+	padding-right: 0.125em;
+}
+.genres-trailor-video {
+	position: relative;
+	height: 100%;
+}
+.genres-trailor-video span.trailor-video-link {
+	position: absolute;
+	top:3.438em;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.genres-trailor-video .trailor-video-link span {
+	font-size: 1em;
+	text-transform: capitalize;
+}
+a.block-images:before {
+	background: rgba(0, 0, 0, .5);
+	position: absolute;
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+}
+.trailor-video .btn-transparant.iq-button {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	text-align: center;
+	right: 0;
+	transform: translateY(-50%);
+}
+.trailor-video .iq-button.btn-transparant span {
+	display: block;
+	font-size: 1em;
+	text-transform: capitalize;
+	color: var(--iq-white);
+}
+.trailor-video .block-images {
+	width: auto;
+	border-radius: 0.625em;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.trending-info.g-border {
+	padding: 0 0 3.125em;
+	margin-bottom: 3.125em;
+	margin-top: 1.875em;
+	border: solid;
+	border-width: 0 0 0.063em;
+	border-image-source: linear-gradient(270deg, rgba(209, 208, 207, 0), rgba(209, 208, 207, .6), rgba(209, 208, 207, 0));
+	border-image-slice: 1;
+}
+.streamit-content-details .trending-pills-header {
+	background: linear-gradient(90.06deg, rgba(20, 20, 20, 0) 1.66%, #0f0f0f 43.64%, rgba(20, 20, 20, 0) 89.28%);
+}
+.streamit-content-details .trending-pills-header.nav-pills .nav-item a {
+	font-weight: 500;
+	text-transform: capitalize;
+	padding: 1.5em 4em;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+	color: var(--iq-white);
+}
+.streamit-content-details .trending-pills-header.nav-pills .nav-item a.active {
+	background: var(--iq-bg1);
+	color: var(--iq-primary);
+	color: var(--iq-primary);
+	border-bottom: 0.063em solid var(--iq-primary);
+}
+.streamit-reviews .comment-respond .comment-reply-title {
+	margin-top: 1.25em;
+	position: relative;
+	padding-bottom: 0;
+	margin-bottom: 0.625em;
+	font-weight: 400;
+	letter-spacing: -.02em;
+	word-wrap: break-word;
+}
+.streamit-reviews p.comment-notes {
+	float: left;
+	margin: 0 0 1.375em;
+	line-height: 1.66em;
+}
+.streamit-reviews .comment-form-rating {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	margin: 0 0 1.375em;
+	clear: both;
+}
+.streamit-reviews .comment-form .comment-form-rating>label {
+	color: var(--iq-body-text);
+}
+.comment-form-rating i.ri-star-line {
+	color: var(--iq-primary);
+	font-size: 1.25em;
+}
+.source-list-content {
+	max-height: 25em;
+	height: auto;
+	clear: both;
+	position: relative;
+	overflow-y: scroll;
+}
+table.movie-sources.sources-table {
+	border: none;
+	border-collapse: separate;
+	overflow-x: auto;
+	border-spacing: 0;
+	width: 100%;
+	margin-bottom: 1.25em;
+}
+th.genres-table-heading {
+	border: none;
+	text-align: left;
+	padding: 1.5em 1.25em;
+	text-transform: capitalize;
+}
+.sources-table tbody {
+	background: var(--iq-bg1);
+}
+.sources-table td,
+.sources-table th {
+	border: none;
+	text-align: left;
+	padding: 1.5em 1.25em;
+	text-transform: capitalize;
+}
+.sources-table td {
+	border-bottom: 0.625em solid var(--iq-body-bg);
+}
+.trending-pills a.play-source.iq-button {
+	padding: 0.5em 1em;
+	border-radius: 0!important;
+	cursor: pointer;
+	z-index: 4;
+}
+.streamit-reviews .comment-form-author,
+.streamit-reviews .comment-form-email {
+	float: left;
+	width: 50%;
+	padding-right: 0.938em;
+}
+
+.movie-time span.starring-text {
+	font-size: 0.875em !important;
+}
+.detail-cast-list li.slide-item {
+	overflow: hidden;
+	position: relative;
+}
+li.slide-item .cast-images .img-box img {
+	width: auto;
+	height: 100%;
+	object-fit: cover;
+}
+li.slide-item .cast-images .img-box {
+	width: 100%;
+	height: 8.75em;
+}
+li.slide-item .cast-images .block-description {
+	left: auto;
+	right: 0;
+}
+li.slide-item .cast-images:before {
+	position: absolute;
+	content: "";
+	top: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all .5s ease-in-out;
+	background: var(--iq-bg1);
+}

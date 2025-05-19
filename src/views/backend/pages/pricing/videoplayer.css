@@ -1,0 +1,21 @@
+.video-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+video {
+      position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .custom-controls {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    z-index: 1; 
+
+
+  }
+  

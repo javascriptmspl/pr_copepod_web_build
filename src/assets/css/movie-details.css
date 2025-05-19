@@ -1,0 +1,120 @@
+/* -------------------------movie  banner------------------------ */
+.movie-banner .swiper-slide{
+    display: block !important;
+}
+.movie-banner{
+	overflow: hidden;
+}
+.swiper-banner-container{
+	margin-top: -4.6875em;
+	height: 40em;
+}
+.swiper-banner-container i.ri-checkbox-blank-circle-fill {
+    font-size: 7px;
+    filter: brightness(0.5);
+}
+.tvshows-slider{
+	position: relative;
+}
+.tvshows-slider .swiper-banner-container .swiper-slide.swiper-slide:before {
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(20, 20, 20, 1) 35%, rgba(83, 100, 141, 0) 100%);
+}
+.banner-home-swiper  .swiper-slide.swiper-slide:before {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(20, 20, 20, 0.9) 15%, rgba(83, 100, 141, 0) 100%);
+    width: 100%;
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+}
+.swiper-banner-container .swiper-slide-prev ,.swiper-banner-container .swiper-slide-next{
+    filter: blur( 0.1875em);
+}
+.banner-container .card-image {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.banner-container .slider-ratting{
+	margin-top:  1.25em	;
+}
+.banner-container .movie-banner-time {
+    margin:  0.625em 0 1.25em	;
+}
+.banner-container .movie-banner-text{
+	margin: 1.875em 0 ;
+	max-width: 37.5em;
+	display: -webkit-box;
+    -webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.banner-container  .arrow-icon {
+	font-size: 5rem;
+	color: var(--iq-white);
+}
+.swiper-banner-button-next,.swiper-banner-button-prev{
+	position: absolute;
+    z-index: 1;
+}
+ .swiper-banner-button-prev {
+    right: 0em;
+}
+.banner-container .movie-banner-1{
+	background: url("../images/movie-banner/01.png");
+	background-size: cover;
+}
+.banner-container .movie-banner-2{
+	background: url("../images/movie-banner/02.jpg");
+	background-size: cover;
+}
+.banner-container .movie-banner-3{
+	background: url("../images/movie-banner/03.jpg");
+	background-size: cover;
+}
+.w-trailor {
+    font-size: 1.250em;
+    text-transform: uppercase;
+    letter-spacing: 0.21875em;
+    font-weight: 400;
+    color: var(--iq-white-color);
+    margin-left: 0.9375em;
+    vertical-align: middle;
+}
+.swiper-banner-container .show-banner-1{
+	background: url("../images/upcoming/01.jpg");
+	background-size: cover;
+}
+.swiper-banner-container  .show-banner-2{
+	background: url("../images/tvthrillers/02.jpg");
+	background-size: cover;
+}
+.swiper-banner-container  .show-banner-3{
+	background: url("../images/tvthrillers/04.jpg");
+	background-size: cover;
+}
+.swiper-banner-container .show-video-banner-1{
+	background: url("../images/video/04.jpg");
+	background-size: cover;
+}
+.swiper-banner-container .show-video-banner-2{
+	background: url("../images/video/09.jpg");
+	background-size: cover;
+}
+.swiper-banner-container .show-video-banner-3{
+	background: url("../images/video/08.jpg");
+	background-size: cover;
+}
+.tvshows-slider .swiper-banner-button-next, .tvshows-slider .swiper-banner-button-prev {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 999;
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    height: 4.063em;
+}
