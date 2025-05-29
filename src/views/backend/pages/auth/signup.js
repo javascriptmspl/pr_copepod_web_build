@@ -86,9 +86,9 @@ const ModeID ="65c9e868ef719d3c44940a9d";
     dispatch(getAllModes());
   };
 
-  useEffect(() => {
-    GetAllMode();
-  }, []);
+  // useEffect(() => {
+  //   GetAllMode();
+  // }, []);
 
   const history = useHistory();
 
@@ -107,7 +107,7 @@ const ModeID ="65c9e868ef719d3c44940a9d";
         email: values.email,
         phone_number: values.phone,
         DOB: values.DOB,
-        interest: values.interest,
+        // interest: values.interest,
       };
 
       setSubmitting(true); // Set submitting state to true before API call
