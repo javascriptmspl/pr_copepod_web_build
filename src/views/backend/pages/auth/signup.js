@@ -77,8 +77,8 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 const SignUp = ({ handleChange }) => {
-  const ModeID = JSON.parse(localStorage.getItem("ModeDynmic"));
-
+  // const ModeID = JSON.parse(localStorage.getItem("ModeDynmic"));
+const ModeID ="65c9e868ef719d3c44940a9d";
   const [value, setValue] = useState();
   const dispatch = useDispatch();
 
