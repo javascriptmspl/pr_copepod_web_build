@@ -308,7 +308,7 @@ const ModeID ="65c9e868ef719d3c44940a9d";
               name="confirmPassword"
               value={values.confirmPassword}
               onChange={handleChange}
-              onKeyDown={(event) => handleKeyDown(event, handleSubmit)}
+              // onKeyDown={(event) => handleKeyDown(event, handleSubmit)}
               onBlur={handleBlur}
               placeholder="Confirm Your Password"
               autoComplete="off"
